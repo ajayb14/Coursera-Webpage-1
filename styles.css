@@ -1,0 +1,145 @@
+body {
+    background-color: white;
+    font-family: sans-serif, Arial;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+    cursor: pointer;
+}
+
+h1, h2 {
+    font-size: 3rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #29490d;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    margin-top: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 1rem; 
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+@keyframes rotateOnce {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+nav li:hover {
+    animation: rotateOnce 1s forwards; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background-color: transparent; 
+    transition: background-color 0.3s; 
+    font-size: 1.2rem;
+    border-radius: 1rem;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+section {
+    display: flex;
+}
+
+#section1 {
+    background-image: url('original-italian-pizza.jpg');
+    background-size: cover; 
+    background-position: center; 
+    padding: 4rem; 
+    color: black; 
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-radius: 3rem;
+    opacity: 0.6;
+}
+
+
+#section1 h1 {
+    font-size: 2.5rem; 
+
+}
+
+#section1 p {
+    font-size: 1.5rem; 
+
+}
+
+article {
+    flex: 1;
+}
+
+
+#section2 {
+    display: flex; 
+    justify-content: space-around;
+    background-color: white;
+}
+
+#section2 h2 {
+    font-weight: bold;
+}
+
+#section2 article {
+    width: 30%; 
+    text-align: center; 
+    margin-bottom: 1.25rem; 
+    background-color: #ffe7be;
+    margin: 20px;
+    border-radius: 3rem;
+}
+
+#section2 article img {
+    width: 80%; 
+    height: auto; 
+    border-radius: 2rem;
+}
+
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+#Lemon {
+    width: 5rem;
+    height: 4rem;
+    display: block;
+}
+
+
+
+
+
+
